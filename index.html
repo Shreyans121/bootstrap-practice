@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Bootstrap CheatSheet</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- JUMBOTRON -->
+  <div class="jumbotron text-center">
+    <div class="container">
+      <h1>Welcome To My Website</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt inventore laudantium cum ad, similique rerum velit eos nihil autem tempore officia totam labore quas alias nisi qui aliquid. Incidunt, omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quam nesciunt vitae ea architecto fugiat necessitatibus non quas sit. Ab sapiente dolore quibusdam rem odio assumenda quis expedita soluta totam!</p>
+      <a href="#" class="btn btn-primary">Contact Me</a>
+    </div>
+  </div>
+
+  <!-- Topography  -->
+  <div class="container">
+      <h1>Hello world</h1>
+      <p class="lead"><mark>Lorem ipsum dolor sit</mark> amet consectetur adipisicing elit. Blanditiis aspernatur neque inventore laboriosam <del>tempore culpa dolor quas</del> odio repellendus sed repellat adipisci perferendis nulla <kbd>nesciunt</kbd>, id doloremque dolores eaque placeat!</p>
+    
+
+    <hr>
+
+    <!-- Alignment -->
+
+    <p class="text-left text-uppercase">Left</p>
+    <p class="text-center text-capitalize">in Center</p>
+    <p class="text-right">Right</p>
+    <p class="text-justified">Justified</p>
+    <p class="text-nowrap">No Wrap</p>
+
+    <hr>
+
+    <!-- FLOATS -->
+
+    <div class="pull-right">Floating towards right</div>
+    <div class="pull-left">Floating towards left</div>
+
+    <hr>
+
+    <!-- BLOCKQUOTE -->
+
+    <blockquote class="blockquote text-center">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia in nam labore aliquam harum, excepturi sapiente autem magni suscipit dicta minus rem doloremque fugit est accusamus, necessitatibus nihil, qui deleniti?</p>
+      <footer class="blockquote-footer">Quote by <cite title="John">John Doe</cite></footer>
+    </blockquote>
+
+    <hr>
+
+    <!-- Contextual Colors -->
+    
+    <div class="row">
+      <div class="col">
+        <div class="text-primary">Text primary</div>
+        <div class="text-success">Text Success</div>
+        <div class="text-info">Text info</div>
+        <div class="text-warning">Text Warning</div>
+        <div class="text-danger">Text danger</div>
+        <div class="text-muted">Text Muted</div>
+      </div>
+      <div class="col">
+        <div class="bg-primary">Bg Primary</div>
+        <div class="bg-success">Bg Success</div>
+        <div class="bg-info">Bg Info</div>
+        <div class="bg-warning">Bg Warning</div>
+        <div class="bg-danger">Bg Danger</div>
+        <div class="bg-muted">Bg Muted</div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <!-- BUTTON-->
+
+    <button class="btn btn-default">Button</button>
+    <a href="#" class="btn btn-default" role="button">Link</a>
+    <input class="btn btn-default" type="submit" value="Submit">
+    <input class="btn btn-default" type="button" value="Input">
+    <input class="btn btn-default" type="reset" value="Reset">
+
+    <br>
+
+    <!-- Contextual Buttons-->
+
+    <button class="btn btn-default">Default</button>
+    <button class="btn btn-primary">primary</button>
+    <button class="btn btn-success">Success</button>
+    <button class="btn btn-info">Info</button>
+    <button class="btn btn-warning">Warning</button>
+    <button class="btn btn-danger">Danger</button>
+    <button class="btn btn-link">Link</button>
+    <br>
+    <button class="btn btn-outline-default">Default</button>
+    <button class="btn btn-outline-primary">primary</button>
+    <button class="btn btn-outline-success">Success</button>
+    <button class="btn btn-outline-info">Info</button>
+    <button class="btn btn-outline-warning">Warning</button>
+    <button class="btn btn-outline-danger">Danger</button>
+    <button class="btn btn-outline-link">Link</button>
+
+    <br>
+
+    <!-- Buttons Sizes-->
+    
+    <button class="btn btn-default btn-sm">Default</button>
+    <button class="btn btn-default btn-md">Default</button>
+    <button class="btn btn-default btn-lg">Default</button>
+    <button class="btn btn-default btn-xs">Default</button>
+    <button class="btn btn-default" disabled>Default</button>
+    <br>
+    <button class="btn btn-primary btn-block">Btn Block Primary</button>
+    <button class="btn btn-secondary btn-block">Btn Block Secondary</button>
+  </div>
+
+  <hr>
+
+  <!-- FORMS -->
+  <div class="container">
+    <form action="">
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" placeholder="Name">
+      </div>
+
+      <div class="form-group">
+        <label>Email</label>
+        <input type="text" class="form-control" placeholder="Email, It's readonly..." readonly>
+      </div>
+
+      <div class="form-group">
+        <label>Gender</label>
+        <select class="form-control btn-primary btn-sm">
+          <option value="male" class="btn-secondary">Male</option>
+          <option value="female" class="btn-secondary">Female</option>
+          <option value="other" class="btn-secondary">Other</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Upload Files</label>
+        <input type="file">
+        <p class="form-text text-muted">Only .jpg and .png files allowed</p>
+      </div>     
+
+    </form>
+
+    <!-- PROGRESS BAR -->
+
+    <div class="progress">
+      <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 50%;">
+        50%
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- GRID -->
+    <div class="row">
+      <div class="col-md-4">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem cum quaerat tempora doloribus officia debitis sit perferendis labore dolore neque. Laborum soluta nesciunt aspernatur ipsum sint. Quae, explicabo placeat! Corporis.</p>
+      </div>
+      <div class="col-md-4">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem cum quaerat tempora doloribus officia debitis sit perferendis labore dolore neque. Laborum soluta nesciunt aspernatur ipsum sint. Quae, explicabo placeat! Corporis.</p>
+      </div>
+      <div class="col-md-4">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem cum quaerat tempora doloribus officia debitis sit perferendis labore dolore neque. Laborum soluta nesciunt aspernatur ipsum sint. Quae, explicabo placeat! Corporis.</p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem cum quaerat tempora doloribus officia debitis sit perferendis labore dolore neque. Laborum soluta nesciunt aspernatur ipsum sint. Quae, explicabo placeat! Corporis.</p>
+      </div>
+      <div class="col-md-6">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem cum quaerat tempora doloribus officia debitis sit perferendis labore dolore neque. Laborum soluta nesciunt aspernatur ipsum sint. Quae, explicabo placeat! Corporis.</p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-11">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem cum quaerat tempora doloribus officia debitis sit perferendis labore dolore neque. Laborum soluta nesciunt aspernatur ipsum sint. Quae, explicabo placeat! Corporis.</p>
+      </div>
+      <div class="col-md-1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem cum quaerat tempora doloribus officia debitis sit perferendis labore dolore neque. Laborum soluta nesciunt aspernatur ipsum sint. Quae, explicabo placeat! Corporis.</p>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div style="height: 600px;"></div>
+
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
